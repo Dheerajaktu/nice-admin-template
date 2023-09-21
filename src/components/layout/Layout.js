@@ -13,9 +13,9 @@ export default class Layout extends Component {
 
 
  showToggle(){
-    console.log('--called-1-', this.state)
+    // console.log('--called-1-', this.state)
     this.setState({toggleActive : false})
-    console.log('---called2--', this.state)
+    // console.log('---called2--', this.state)
  }
 
   render() {
